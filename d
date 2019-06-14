@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # local settings
-IMG_NAME=aerlaut/laravel-dev
+IMG_NAME=aerlaut/laravel-base
 HOST=0.0.0.0
 PORT=8080
-TEST_CONTAINER_NAME=laravel-dev-test
+TEST_CONTAINER_NAME=laravel-base-test
 
 if [ "$1" == 'build' ]; then
 

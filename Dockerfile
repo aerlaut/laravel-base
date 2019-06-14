@@ -38,6 +38,7 @@ RUN apk --no-cache add php7 \
     php7-xmlreader \
     php7-ctype \
     php7-gd \
+    php7-opcache \
     php7-xdebug \
     nginx \
     supervisor \
