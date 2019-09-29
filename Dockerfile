@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM alpine:latest
 
 LABEL Maintainer="Anugerah Erlaut <aerlaut@live.com>" \
       Description="Container based on trafex/alpine-nginx-php7"
@@ -40,6 +40,7 @@ RUN apk --no-cache add php7 \
     php7-gd \
     php7-opcache \
     php7-xdebug \
+    php7-bcmath\
     nginx \
     supervisor \
     curl
